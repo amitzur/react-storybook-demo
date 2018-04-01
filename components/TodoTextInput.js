@@ -36,6 +36,7 @@ class TodoTextInput extends Component {
           edit: this.props.editing,
           'new-todo': this.props.newTodo
         })}
+        style={{backgroundColor:'purple'}}
         type="text"
         placeholder={this.props.placeholder}
         autoFocus="true"
